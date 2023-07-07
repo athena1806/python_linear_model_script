@@ -19,7 +19,7 @@ filename = sys.argv[1]
 print("Loading filename {}".format(filename))
 print()
 
-# Use read_csv() to read regex1.csv file
+# Use read_csv() to read regrex1.csv file
 dataset = pd.read_csv(filename)
 dataset.describe()
 print(dataset)
